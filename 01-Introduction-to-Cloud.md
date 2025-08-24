@@ -3,6 +3,7 @@
 *Cloud computing is the on-demand delivery of IT resources like servers, storage, and databases over the internet. 
 Instead of buying and managing your own physical data centers, you can access these services from a provider like AWS on a pay-as-you-go basis.*
 
+
 ## 1. What is Cloud Computing?
 
 *At its core, cloud computing is the on-demand delivery of IT resources over the internet with pay-as-you-go pricing. 
