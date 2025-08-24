@@ -37,4 +37,4 @@
 * **Use a Container when...**
     * *1. Microservices Architecture......because each service can be packaged and scaled independently in its own lightweight container.*
     * *2. Solving the "It works on my machine" Problem*
-    * *3. CI/CD and DevOps Automation*
+    * *3. CI/CD and DevOps Automation* 
