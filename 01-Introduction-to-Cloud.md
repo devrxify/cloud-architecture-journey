@@ -8,7 +8,7 @@ Instead of buying and managing your own physical data centers, you can access th
 
 *At its core, cloud computing is the on-demand delivery of IT resources over the internet with pay-as-you-go pricing. 
 Think of it like electricity in your house. You don't own a power plant. You just plug into the wall (the internet) and pay a utility company (a cloud provider like AWS) only for the electricity you use.
-Before the cloud, a company had to buy, build, and maintain its own "power plant"—a physical data center with servers, storage, and networking hardware. This was expensive, slow, and inefficient.*
+Before the cloud, a company had to buy, build, and maintain its own "power plant",a physical data center with servers, storage, and networking hardware. This was expensive, slow, and inefficient.*
 
 ## 2. Key Benefits of the Cloud
 
