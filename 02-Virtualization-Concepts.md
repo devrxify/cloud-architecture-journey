@@ -25,7 +25,7 @@ Here are some quick notes on Virtuallization which I learned and gather form var
 ### ## 2. Understanding Containers
 
 * **What they are:** *Containers are a form of operating system level virtualization that packages up an application and its dependencies into a single, portable unit. They provide a consistent and isolated environment for running applications, regardless of the underlying infrastructure.*
-* **Analogy:** *If a VM is a complete house with its own foundation, plumbing, electrical, and rooms (the guest OS and all its files)—then a Container is an apartment in a large building.*
+* **Analogy:** *If a VM is a complete house with its own foundation, plumbing, electrical, and rooms (the guest OS and all its files) then a Container is an apartment in a large building.*
 
 ---
 
