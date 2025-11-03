@@ -1,3 +1,13 @@
+### ## 💡 Personal Log: The Setup Struggle
+
+This module was my first real test. It took me several days of hands-on work to get a stable lab. I ran into many errors:
+* My first attempt with **VirtualBox** failed, and the Ubuntu Server installer kept crashing with a `curtin` error.
+* After switching to **VMware**, I installed Ubuntu Desktop but my first user (`aspect`) was created without `sudo` privileges, locking me out. I had to learn to fix this by re-installing and unchecking "unattended setup." 
+(You can say that I was basically learning the linux too :) )
+Here are some quick notes on Virtuallization which I learned and gather form various sources. Hope It will help ; ).
+
+---
+
 # Module 2: Virtualization Concepts (VMs vs. Containers)
 
 *A Virtual Machine (VM) is an entire computer (virtual hardware + its own operating system) running on a host machine. It's powerful but heavy.*
