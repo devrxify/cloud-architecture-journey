@@ -1,4 +1,4 @@
-### ## 💡 Personal Log: The Setup Struggle
+### ## Personal Log: The Setup Struggle
 
 This module was my first real test. It took me several hours of hands on work to get a stable lab. I ran into many errors:
 * My first attempt with **VirtualBox** failed, and the Ubuntu Server installer kept crashing with a `curtin` error.
