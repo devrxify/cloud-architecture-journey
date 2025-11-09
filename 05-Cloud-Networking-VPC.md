@@ -1,5 +1,5 @@
 ### ## Personal Log: The Hidden Cost Trap
-In this module, I set up a custom VPC private network. Gone through simple step and boom : ). Just delete the "NAT Gateway" before deleteing the VPC.
+In this module, I set up a custom VPC private network. Gone through simple step and boom : ). Just delete the "NAT Gateway" before deleting the VPC, because it gave me a massive lesson about cost and dependencies.
 
 
 # Module 5: Cloud Networking - Amazon VPC
