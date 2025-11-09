@@ -6,6 +6,6 @@ This repository is my **live action learning journal**. It's not just a collecti
 
 I'm using this public project to hold myself accountable and to show how I learn. I'm using all the tools available to me, including hands on labs, documentation, and an AI to guide my studies. My goal is to build a real portfolio and master the skills I need for a career in cloud engineering.
 
-I know no one will find it usefull in this era of AI, but I am doing this to track my journey by building a foundation : )
+In an era of AI, it's easy to get instant answers. I am doing this the hard way to track my authentic journey and build a real foundation : )
 
 You can follow my progress in the module files below.
