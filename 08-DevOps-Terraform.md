@@ -4,7 +4,7 @@ In this module, I moved from "ClickOps" (manual AWS Console work) to **Infrastru
 
 ---
 
-### ## 1. Core Concepts
+### 1. Core Concepts
 
 * **Infrastructure as Code (IaC):** Treating infrastructure (servers, networks) like software. Instead of clicking buttons, I write a "Blueprint" file, and Terraform builds it.
 * **Terraform Workflow:**
@@ -16,7 +16,7 @@ In this module, I moved from "ClickOps" (manual AWS Console work) to **Infrastru
 
 ---
 
-### ## 2. The Architecture I Built (Code)
+### 2. The Architecture I Built (Code)
 
 I wrote a Terraform script to build a custom VPC with a Public Subnet, Internet Gateway, and an EC2 instance protected by a Security Group.
 
