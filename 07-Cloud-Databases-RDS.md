@@ -1,4 +1,4 @@
-### ## Personal Log: The Troubleshooting Loop
+### Personal Log: The Troubleshooting Loop
 
 When I first tried to connect, Workbench gave me a timeout error. I immediately knew what to do:
 1.  The error was a **timeout**, which means the firewall was blocking me.
@@ -14,7 +14,7 @@ In this module, I learned the difference between running a database on my own se
 
 ---
 
-### ## 1. Core Concepts
+### 1. Core Concepts
 
 * **Managed Service (RDS):** *This is a cloud service model where AWS handles the "heavy lifting" of infrastructure. Instead of launching an EC2 server, installing the OS, installing the database software, and managing patches myself (like building my own bank vault), I simply rent a database that is already running and secured (like renting a safe deposit box). AWS manages the hardware, backups, and updates; I just manage my data.*
 * **Database Engine:** *This is the specific database software running inside the RDS instance. AWS supports several engines like PostgreSQL, Oracle, and SQL Server. For this lab, I chose **MySQL Community Edition**, which is a popular open source relational database.*
