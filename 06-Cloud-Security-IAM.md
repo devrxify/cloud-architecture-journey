@@ -1,4 +1,4 @@
-### ## Personal Log: The "Aha!" Moment
+### Personal Log: The "Aha!" Moment
 
 I successfully set up a server that could talk to S3 without ANY passwords stored on it.
 
@@ -15,7 +15,7 @@ This module was about securing my AWS account. I learned that in the cloud, secu
 <img width="1380" height="313" alt="unnamed" src="https://github.com/user-attachments/assets/0d236664-5719-4521-8b23-6116f12f1deb" />
 
 ---
-### ## 1. Core Security Concepts
+### 1. Core Security Concepts
 
 * **Root Account:** This is the initial account created when signing up for AWS. It has unlimited power to do anything, including deleting the entire account. Using it for daily tasks is extremely dangerous because if its credentials are stolen, there are no restrictions to stop an attacker. It's like using the master key for an entire office building just to open one desk drawer.
 * **IAM User:** An IAM user is a specific identity created within the AWS account for a person (like me). Unlike the root account, it can have very specific, limited permissions attached to it. I created a dedicated "Admin" user for my daily work so I can stop using the root account.
