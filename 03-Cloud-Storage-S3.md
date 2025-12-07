@@ -1,4 +1,4 @@
-### ## Personal Log: The EFS Nightmare
+### Personal Log: The EFS Nightmare
 
 The S3 (Object) and EBS (Block) labs were straightforward, but the EFS (File) lab was a massive challenge. It took me a 3-4 days to solve.
 
