@@ -1,4 +1,4 @@
-### ## Personal Log: The Setup Struggle
+### Personal Log: The Setup Struggle
 
 This module was my first real test. It took me several hours of hands on work to get a stable lab. I ran into many errors:
 * My first attempt with **VirtualBox** failed, and the Ubuntu Server installer kept crashing with a `curtin` error.
@@ -15,21 +15,21 @@ Here are some quick notes on Virtuallization which I learned and gather form var
 
 ---
 
-### ## 1. Understanding Virtual Machines (VMs)
+### 1. Understanding Virtual Machines (VMs)
 
 * **What they are:** *A virtual machine (VM) is a software based computer that functions like a physical computer. It's a digitized version of a physical machine, allowing you to run different operating systems and applications on a single physical server. Essentially, VMs enable multiple "guest" machines to run on a single "host" machine.*
 * **Analogy:** *A VM is a complete house with its own foundation, plumbing, electrical, and rooms (the guest OS and all its files)*
 
 ---
 
-### ## 2. Understanding Containers
+### 2. Understanding Containers
 
 * **What they are:** *Containers are a form of operating system level virtualization that packages up an application and its dependencies into a single, portable unit. They provide a consistent and isolated environment for running applications, regardless of the underlying infrastructure.*
 * **Analogy:** *If a VM is a complete house with its own foundation, plumbing, electrical, and rooms (the guest OS and all its files) then a Container is an apartment in a large building.*
 
 ---
 
-### ## 3. Key Differences at a Glance
+### 3. Key Differences at a Glance
 
 * **Size & Speed:** *VMs are heavy (Gigabytes) & Slow (Minutes) while Containers are lightweight (Megabytes) and Fast (Seconds or less)*
 * **Resource Overhead:** *VMs: High (runs a full guest OS) |	Containers: Low (shares the host OS kernel)*
@@ -37,7 +37,7 @@ Here are some quick notes on Virtuallization which I learned and gather form var
 
 ---
 
-### ## 4. When to Use Which?
+### 4. When to Use Which?
 
 * **Use a VM when...**
     * *1. Running Different Operating Systems on a Single Server*
