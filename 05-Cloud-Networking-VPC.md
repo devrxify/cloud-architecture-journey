@@ -1,4 +1,4 @@
-### ## Personal Log: The Hidden Cost Trap
+### Personal Log: The Hidden Cost Trap
 In this module, I set up a custom VPC private network. Gone through simple step and boom : ). Just delete the "NAT Gateway" before deleting the VPC, because it gave me a massive lesson about cost and dependencies.
 
 
@@ -8,7 +8,7 @@ This module was about building a private, isolated network in the cloud. Instead
 
 ---
 
-### ## 1. Core Networking Components
+### 1. Core Networking Components
 
 * **VPC (Virtual Private Cloud):** A VPC is my own private, isolated section of the AWS cloud. It's like building a secure wall around my cloud resources, giving me complete control over the IP address range and who is allowed to enter or leave the network.
 * **Subnet:** A subnet is a smaller, segmented "neighborhood" inside the VPC, usually located in a specific Availability Zone.
