@@ -27,13 +27,11 @@ provider "aws" {
   region = "eu-north-1"
 }
 
-# 1. The Network (VPC)
 resource "aws_vpc" "my_capstone_vpc" {
   cidr_block = "10.0.0.0/16"
   tags = { Name = "Terraform-VPC" }
 }
 
-# 2. The Subnet (Public)
 resource "aws_subnet" "my_public_subnet" {
   vpc_id            = aws_vpc.my_capstone_vpc.id
   cidr_block        = "10.0.1.0/24"
@@ -41,12 +39,10 @@ resource "aws_subnet" "my_public_subnet" {
   tags = { Name = "Terraform-Public-Subnet" }
 }
 
-# 3. The Internet Gateway
 resource "aws_internet_gateway" "my_igw" {
   vpc_id = aws_vpc.my_capstone_vpc.id
 }
 
-# 4. The Security Group (Firewall)
 resource "aws_security_group" "my_sg" {
   name   = "allow_ssh"
   vpc_id = aws_vpc.my_capstone_vpc.id
@@ -59,7 +55,6 @@ resource "aws_security_group" "my_sg" {
   }
 }
 
-# 5. The Server
 resource "aws_instance" "my_server" {
   ami                    = "ami-09a9858973b288bdd" # Ubuntu 24.04 (Stockholm)
   instance_type          = "t3.micro"
